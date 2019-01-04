@@ -1,0 +1,220 @@
+
+/* 头部 */
+#header_wraper {
+    height: 81px;   
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.header_wraper{
+    height: 81px;    
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.content{
+    width: 1240px;
+    margin: 0 auto;
+    position: relative;
+}
+.h2{
+   padding: 28px 0;
+    float: left;      
+}
+.h2 a{
+    display: block;
+}
+.logo1{
+    display: none;
+}
+
+.nav{
+    
+    float: right;  
+    margin-left: 145px; 
+}
+.list{
+    float: left;
+    margin: 0 20px;
+}
+.list a{
+    color: #fff;
+    font-size: 16px;
+}
+
+.inp{
+   
+    background: #fff;
+    border-radius: 70px;
+    width: 170px;
+    height: 30px; 
+    /* text-align: center; */
+    margin: 0 10px;
+}
+.sea{
+    position: absolute;
+    top: 25px;
+    right: 115px;
+    font-size: 12px;
+    margin-top: 5px;  
+    overflow: hidden;
+    width: 118px;
+    height: 20px;
+    border: none;
+    /* padding-left: 8px; */
+    
+}
+.inp a{
+    float: right;
+    color: rgb(129, 126, 126);
+    margin-right: 6px;
+}
+.wd{
+    width: 37px;
+    height: 56px;
+    line-height: 56px;
+    /* text-align: center; */
+    /* position: absolute; */
+}
+.wd a{
+    display: block;
+    color: #fff;    
+}
+.wd_list{
+    position: relative;
+    top: -5px;
+    left: -55px;
+    width: 120px;
+    height: 155px;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px; 
+    display: none;
+}
+.wd:hover .wd_list{
+    display: block;
+}
+.wd_item{
+    width: 80px;
+    height: 30px;   
+    margin-left: 20px;    
+}
+.wd_item a{
+    
+    display: block;
+    width: 80px;
+    height: 30px;
+    color: rgb(85, 79, 79);
+    font-size: 14px;
+}
+.gwc{
+    float: right;
+    display: block;
+    color: #fff;
+}
+.iconfont{
+    font-size: 29px;
+}
+.gwc span{
+    position: absolute;
+    top: 18px;
+    right: 5px;
+    font-size: 18px;
+    color: red;
+}
+
+/* 手机下拉 */
+.hover_list{
+    position: absolute;
+    top: 82px;
+    left: 0px;
+    width: 1240px;
+    height: 190px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    display: none;
+}
+
+.hover_item{
+    width: 150px;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.hover_item a{
+    display: block;
+    width: 150px;
+    height: 165px;
+    text-align: center;
+    color: rgb(77, 73, 73);
+    font-size: 12px;
+    
+}
+.hover_item a img{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.search{
+    float: right;
+  
+
+   
+}
+.icons{
+    width: 20px;
+    height: 20px;
+    background: wheat;
+}
+.icon-search{
+    width: 20px;
+    height: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 尾部 */
+#foot_wraper{
+    width: 100%;
+    height: 500px;
+    background: wheat;
+}
